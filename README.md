@@ -1,6 +1,6 @@
 ## PDF Analysis with UiPath
 
-I have a lot of PDF documentation to read.  This automation utilises the native capabilities within UiPath to create an analysis of the words used within a PDF file.  Mapping the frequency that a word is used. stripping out common english words.
+I have a lot of PDF documentation to read.  This automation utilises the native capabilities within UiPath to create an analysis of the words used within a PDF file.  Mapping the frequency that a word is used, whilst stripping out common english words.
 
 ### Steps
 
@@ -29,6 +29,14 @@ I have a lot of PDF documentation to read.  This automation utilises the native 
 16) Creates Pivot table call 'StratPiv' in new sheet called 'PDFPivot'
 17) Invoke VBA stored in wordCloud.txt at 'PivotConfig' entry point to reformat the Pivot table
 18) Saves the file
+
+### Output Example
+
+![Table Output Example](https://raw.githubusercontent.com/sconyard/UiPath_PDFwordAnalysis/master/images/PDFwordAnalysis_TableOutput.png)
+
+![Pivot Output Example 1](https://raw.githubusercontent.com/sconyard/UiPath_PDFwordAnalysis/master/images/PDFwordAnalysis_PivotOutput1.png)
+
+![Pivot Output Example 2](https://raw.githubusercontent.com/sconyard/UiPath_PDFwordAnalysis/master/images/PDFwordAnalysis_PivotOutput2.png)
 
 ### Support
 
